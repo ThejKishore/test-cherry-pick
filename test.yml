@@ -1,0 +1,11 @@
+version: '3'
+services:
+  test:
+    build: .
+    environment:
+      - e="e"
+
+    ports:
+      - 9990:9990
+    
+    
