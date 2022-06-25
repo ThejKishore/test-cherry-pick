@@ -1,11 +1,9 @@
 version: '3'
 services:
   test:
-    build: .
+    image: helloworld:latest
     environment:
-      - e="e"
-
+      - e=e
     ports:
       - 9990:9990
-    
     
