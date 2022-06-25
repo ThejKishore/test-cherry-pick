@@ -6,4 +6,6 @@ services:
       - e=e
     ports:
       - 9990:9990
+    volume:
+      - ./test:/usr/bin/test
     
