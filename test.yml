@@ -8,4 +8,7 @@ services:
       - 9990:9990
     volume:
       - ./test:/usr/bin/test
+
+    comments: |
+       all the data are for testing purpose
     
